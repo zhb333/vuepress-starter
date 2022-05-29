@@ -25,7 +25,7 @@ export default defineUserConfig({
       description: "Vue 驱动的静态网站生成器",
     },
   },
-  base: '/bar/',
+  base: '/vuepress-starter/',
   markdown: {
     anchor: false,
     // links: false,
