@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.46">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>VuePress</title><meta name="description" content="Vue-powered Static Site Generator">
+    <link rel="modulepreload" href="/vuepress-starter/assets/app.4271dcdc.js"><link rel="modulepreload" href="/vuepress-starter/assets/404.html.d5b52fc3.js"><link rel="modulepreload" href="/vuepress-starter/assets/404.html.f166316b.js"><link rel="prefetch" href="/vuepress-starter/assets/frontmatter.html.c9e62c12.js"><link rel="prefetch" href="/vuepress-starter/assets/index.html.f966eeb7.js"><link rel="prefetch" href="/vuepress-starter/assets/index.html.18fb7202.js"><link rel="prefetch" href="/vuepress-starter/assets/test.html.5d751b18.js"><link rel="prefetch" href="/vuepress-starter/assets/index.html.5503617c.js"><link rel="prefetch" href="/vuepress-starter/assets/test.html.461a58c9.js"><link rel="prefetch" href="/vuepress-starter/assets/frontmatter.html.c235f479.js"><link rel="prefetch" href="/vuepress-starter/assets/index.html.42c5589f.js"><link rel="prefetch" href="/vuepress-starter/assets/index.html.8c2746f3.js"><link rel="prefetch" href="/vuepress-starter/assets/test.html.1111f2c8.js"><link rel="prefetch" href="/vuepress-starter/assets/index.html.3ac7a50f.js"><link rel="prefetch" href="/vuepress-starter/assets/test.html.810e03b8.js"><link rel="prefetch" href="/vuepress-starter/assets/404.f7c33dc8.js"><link rel="prefetch" href="/vuepress-starter/assets/Layout.9eb25e15.js">
+    <link rel="stylesheet" href="/vuepress-starter/assets/style.921fb84a.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/vuepress-starter/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/vuepress-starter/assets/app.4271dcdc.js" defer></script>
+  </body>
+</html>
