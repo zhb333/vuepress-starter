@@ -1,0 +1,3 @@
+# MyBlog
+
+![](@images/hero.png)
